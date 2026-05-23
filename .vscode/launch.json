@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SmartPorts • Chrome (Fast)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMaps": true,
+      "smartStep": true,
+      "disableOptimisticBPs": true,
+      "trace": false,
+      "internalConsoleOptions": "neverOpen",
+      "timeout": 10000,
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**", "**/vite/**"],
+      "resolveSourceMapLocations": ["${workspaceFolder}/**", "!**/node_modules/**"],
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "presentation": {
+        "group": "SmartPorts",
+        "order": 1
+      }
+    },
+    {
+      "name": "SmartPorts • Edge (Fast)",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMaps": true,
+      "smartStep": true,
+      "disableOptimisticBPs": true,
+      "trace": false,
+      "timeout": 10000,
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "presentation": {
+        "group": "SmartPorts",
+        "order": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+
+    "bradlc.vscode-tailwindcss",
+
+    "eamodio.gitlens",
+
+    "supabase.supabase",
+
+    "visualstudioexptteam.vscodeintellicode",
+
+    "usernamehw.errorlens",
+
+    "christian-kohler.path-intellisense",
+
+    "formulahendry.auto-rename-tag",
+
+    "wayou.vscode-todo-highlight",
+
+    "mikestead.dotenv",
+
+    "gruntfuggly.todo-tree"
+  ],
+  "unwantedRecommendations": ["ms-vscode.vscode-typescript-tslint-plugin"]
+}

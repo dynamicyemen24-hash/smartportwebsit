@@ -1,0 +1,50 @@
+# robots.txt for Smart Ports Co. Ltd
+# https://smartportsco.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://smartportsco.com/sitemap.xml
+
+# Crawl-delay (optional, for respectful crawling)
+Crawl-delay: 10
+
+# Allow all main pages
+Allow: /#solutions
+Allow: /#services
+Allow: /#projects
+Allow: /#about
+Allow: /#contact
+
+# Disallow admin panel from indexing (private area)
+Disallow: /#admin
+Disallow: /admin/
+
+# Disallow private files
+Disallow: /supabase/
+Disallow: /utils/
+Disallow: /scripts/
+
+# Allow search engines to crawl public assets
+Allow: /public/
+Allow: /assets/
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.svg$
+Allow: /*.woff2$
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 10
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 10

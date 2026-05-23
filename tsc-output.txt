@@ -1,0 +1,120 @@
+﻿node_modules/.pnpm/recharts@2.15.2_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/recharts/types/chart/generateCategoricalChart.d.ts(2,36): error TS7016: Could not find a declaration file for module 'lodash'. 'G:/App25/smartportwebsit/node_modules/.pnpm/lodash@4.18.1/node_modules/lodash/lodash.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/lodash` if it exists or add a new declaration (.d.ts) file containing `declare module 'lodash';`
+src/app/admin/AdminLogin.tsx(1,52): error TS6133: 'CSSProperties' is declared but its value is never read.
+src/app/admin/AdminLogin.tsx(10,3): error TS2724: '"lucide-react"' has no exported member named 'ShieldStar'. Did you mean 'ShieldUser'?
+src/app/admin/EvaluationCriteria.tsx(121,11): error TS2783: 'id' is specified more than once, so this usage will be overwritten.
+src/app/admin/EvaluationCriteria.tsx(174,7): error TS2532: Object is possibly 'undefined'.
+src/app/admin/EvaluationCriteria.tsx(287,34): error TS2353: Object literal may only specify known properties, and 'focusRingColor' does not exist in type 'Properties<string | number, string & {}>'.
+src/app/admin/EvaluationCriteria.tsx(301,34): error TS2353: Object literal may only specify known properties, and 'focusRingColor' does not exist in type 'Properties<string | number, string & {}>'.
+src/app/admin/EvaluationCriteria.tsx(320,34): error TS2353: Object literal may only specify known properties, and 'focusRingColor' does not exist in type 'Properties<string | number, string & {}>'.
+src/app/admin/EvaluationCriteria.tsx(345,36): error TS2353: Object literal may only specify known properties, and 'focusRingColor' does not exist in type 'Properties<string | number, string & {}>'.
+src/app/admin/EvaluationCriteria.tsx(364,34): error TS2353: Object literal may only specify known properties, and 'focusRingColor' does not exist in type 'Properties<string | number, string & {}>'.
+src/app/admin/MessagingCenter.tsx(76,35): error TS2532: Object is possibly 'undefined'.
+src/app/admin/MessagingCenter.tsx(133,9): error TS6133: 'selectedConversation' is declared but its value is never read.
+src/app/admin/SocialMediaHub.tsx(14,3): error TS6133: 'Share2' is declared but its value is never read.
+src/app/admin/SocialMediaHub.tsx(15,3): error TS6133: 'BarChart3' is declared but its value is never read.
+src/app/admin/SocialMediaHub.tsx(19,3): error TS6133: 'FileText' is declared but its value is never read.
+src/app/admin/SocialMediaHub.tsx(22,3): error TS6133: 'AlertCircle' is declared but its value is never read.
+src/app/admin/SocialMediaHub.tsx(27,10): error TS6133: 'selectedPlatform' is declared but its value is never read.
+src/app/components/ContactSection.tsx(43,30): error TS2339: Property 'message' does not exist on type '{}'.
+src/app/components/ErrorBoundary.tsx(15,5): error TS2375: Type '{ hasError: false; error: undefined; }' is not assignable to type 'Readonly<ErrorBoundaryState>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'undefined' is not assignable to type 'Error'.
+src/app/components/ErrorBoundary.tsx(22,3): error TS4114: This member must have an 'override' modifier because it overrides a member in the base class 'Component<ErrorBoundaryProps, ErrorBoundaryState, any>'.
+src/app/components/ErrorBoundary.tsx(30,3): error TS4114: This member must have an 'override' modifier because it overrides a member in the base class 'Component<ErrorBoundaryProps, ErrorBoundaryState, any>'.
+src/app/components/LazyComponent.tsx(43,13): error TS18048: 'entry' is possibly 'undefined'.
+src/app/components/LazyComponent.tsx(117,13): error TS18048: 'entry' is possibly 'undefined'.
+src/app/components/LazyImage.tsx(33,13): error TS18048: 'entry' is possibly 'undefined'.
+src/app/components/LiveChat.tsx(59,9): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/app/components/ReCAPTCHA.tsx(20,10): error TS6133: 'isLoaded' is declared but its value is never read.
+src/app/components/TestimonialsPro.tsx(118,10): error TS6133: 'selectedTestimonial' is declared but its value is never read.
+src/app/components/TestimonialsPro.tsx(335,22): error TS2532: Object is possibly 'undefined'.
+src/app/components/TestimonialsPro.tsx(338,22): error TS2532: Object is possibly 'undefined'.
+src/app/components/Toast.tsx(160,56): error TS2379: Argument of type '{ type: "success"; title: string; message: string | undefined; }' is not assignable to parameter of type 'Omit<Toast, "id">' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'message' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/app/components/Toast.tsx(165,56): error TS2379: Argument of type '{ type: "error"; title: string; message: string | undefined; }' is not assignable to parameter of type 'Omit<Toast, "id">' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'message' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/app/components/Toast.tsx(170,56): error TS2379: Argument of type '{ type: "warning"; title: string; message: string | undefined; }' is not assignable to parameter of type 'Omit<Toast, "id">' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'message' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/app/components/Toast.tsx(175,56): error TS2379: Argument of type '{ type: "info"; title: string; message: string | undefined; }' is not assignable to parameter of type 'Omit<Toast, "id">' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'message' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/app/components/ui/context-menu.tsx(125,6): error TS2375: Type '{ children: (ReactNode | Element)[]; key?: Key | null | undefined; id?: string | undefined; color?: string | undefined; content?: string | undefined; translate?: "yes" | ... 1 more ... | undefined; ... 265 more ...; checked: CheckedState | undefined; }' is not assignable to type 'ContextMenuCheckboxItemProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'checked' are incompatible.
+    Type 'CheckedState | undefined' is not assignable to type 'CheckedState'.
+      Type 'undefined' is not assignable to type 'CheckedState'.
+src/app/components/ui/dropdown-menu.tsx(79,6): error TS2375: Type '{ children: (ReactNode | Element)[]; key?: Key | null | undefined; id?: string | undefined; color?: string | undefined; content?: string | undefined; translate?: "yes" | ... 1 more ... | undefined; ... 265 more ...; checked: CheckedState | undefined; }' is not assignable to type 'DropdownMenuCheckboxItemProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'checked' are incompatible.
+    Type 'CheckedState | undefined' is not assignable to type 'CheckedState'.
+      Type 'undefined' is not assignable to type 'CheckedState'.
+src/app/components/ui/menubar.tsx(108,6): error TS2375: Type '{ children: (ReactNode | Element)[]; key?: Key | null | undefined; id?: string | undefined; color?: string | undefined; content?: string | undefined; translate?: "yes" | ... 1 more ... | undefined; ... 265 more ...; checked: CheckedState | undefined; }' is not assignable to type 'MenubarCheckboxItemProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'checked' are incompatible.
+    Type 'CheckedState | undefined' is not assignable to type 'CheckedState'.
+      Type 'undefined' is not assignable to type 'CheckedState'.
+src/app/components/ui/slider.tsx(22,6): error TS2375: Type '{ children: (Element | Element[])[]; name?: string; disabled?: boolean; orientation?: "horizontal" | "vertical" | undefined; dir?: Direction; step?: number; minStepsBetweenThumbs?: number; ... 272 more ...; className: string; }' is not assignable to type 'SliderProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'value' are incompatible.
+    Type 'number[] | undefined' is not assignable to type 'number[]'.
+      Type 'undefined' is not assignable to type 'number[]'.
+src/app/components/ui/sonner.tsx(10,6): error TS2375: Type '{ invert?: boolean; theme: "dark" | "light" | "system" | undefined; position?: Position; hotkey?: string[]; richColors?: boolean; expand?: boolean; duration?: number; gap?: number; visibleToasts?: number; ... 9 more ...; containerAriaLabel?: string; }' is not assignable to type 'ToasterProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'theme' are incompatible.
+    Type '"dark" | "light" | "system" | undefined' is not assignable to type '"dark" | "light" | "system"'.
+      Type 'undefined' is not assignable to type '"dark" | "light" | "system"'.
+src/main.tsx(2,17): error TS5097: An import path can only end with a '.tsx' extension when 'allowImportingTsExtensions' is enabled.
+src/main.tsx(3,27): error TS5097: An import path can only end with a '.tsx' extension when 'allowImportingTsExtensions' is enabled.
+supabase/functions/server/index.tsx(1,30): error TS2307: Cannot find module 'jsr:@supabase/supabase-js@2' or its corresponding type declarations.
+supabase/functions/server/index.tsx(2,22): error TS2307: Cannot find module 'npm:hono' or its corresponding type declarations.
+supabase/functions/server/index.tsx(3,22): error TS2307: Cannot find module 'npm:hono/cors' or its corresponding type declarations.
+supabase/functions/server/index.tsx(4,24): error TS2307: Cannot find module 'npm:hono/logger' or its corresponding type declarations.
+supabase/functions/server/index.tsx(5,20): error TS2307: Cannot find module 'npm:stripe@12.21.0' or its corresponding type declarations.
+supabase/functions/server/index.tsx(6,21): error TS5097: An import path can only end with a '.tsx' extension when 'allowImportingTsExtensions' is enabled.
+supabase/functions/server/index.tsx(12,3): error TS2304: Cannot find name 'Deno'.
+supabase/functions/server/index.tsx(13,3): error TS2304: Cannot find name 'Deno'.
+supabase/functions/server/index.tsx(16,25): error TS2304: Cannot find name 'Deno'.
+supabase/functions/server/index.tsx(37,42): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(46,59): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(112,73): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(117,58): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(142,65): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(147,62): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(164,64): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(169,62): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(206,65): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(214,60): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(229,20): error TS2304: Cannot find name 'Deno'.
+supabase/functions/server/index.tsx(258,74): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(267,55): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(315,69): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(320,54): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(347,69): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(352,55): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(374,70): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(379,59): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(396,69): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(401,69): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(443,63): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(448,64): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(468,70): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(477,55): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(500,70): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(505,64): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(525,70): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(533,47): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(571,62): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(580,53): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(602,53): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(607,54): error TS7006: Parameter 'c' implicitly has an 'any' type.
+supabase/functions/server/index.tsx(630,54): error TS18046: 'error' is of type 'unknown'.
+supabase/functions/server/index.tsx(634,1): error TS2304: Cannot find name 'Deno'.
+supabase/functions/server/kv_store.tsx(13,30): error TS2307: Cannot find module 'jsr:@supabase/supabase-js@2.49.8' or its corresponding type declarations.
+supabase/functions/server/kv_store.tsx(16,3): error TS2304: Cannot find name 'Deno'.
+supabase/functions/server/kv_store.tsx(17,3): error TS2304: Cannot find name 'Deno'.
+supabase/functions/server/kv_store.tsx(67,21): error TS7006: Parameter 'd' implicitly has an 'any' type.
+supabase/functions/server/kv_store.tsx(86,21): error TS7006: Parameter 'd' implicitly has an 'any' type.

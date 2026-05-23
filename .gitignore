@@ -1,0 +1,341 @@
+###############################################################################
+# ENTERPRISE-GRADE .gitignore
+# SmartPortsCo Platform
+# Stack: Vite + React + TypeScript + pnpm
+# Architecture: Enterprise SaaS / Cloud Native / DevSecOps Ready
+# Security Level: Production Hardened
+# Version: Final Enterprise Edition
+###############################################################################
+
+########################################
+# Dependencies / Package Managers
+########################################
+
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn-cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+########################################
+# Build / Distribution / Generated Files
+########################################
+
+dist/
+build/
+out/
+release/
+.tmp/
+.temp/
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+########################################
+# Runtime / Framework Generated
+########################################
+
+vite.config.ts.timestamp-*
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+########################################
+# Test / Coverage / QA
+########################################
+
+coverage/
+coverage-final.json
+.nyc_output/
+test-results/
+playwright-report/
+playwright/.cache/
+vitest.config.ts.timestamp-*
+junit.xml
+
+########################################
+# Framework / Tooling Caches
+########################################
+
+.turbo/
+.next/
+.nuxt/
+.svelte-kit/
+.vercel/
+.netlify/
+storybook-static/
+
+########################################
+# Logs / Diagnostics
+########################################
+
+*.log
+logs/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+########################################
+# Environment Variables / Secrets
+########################################
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+.env.qa.local
+.env.*.local
+
+########################################
+# Secret Backups / Unsafe Variants
+########################################
+
+*.env.backup
+*.env.save
+*.secret
+*.secrets
+
+########################################
+# Safe Public Templates
+########################################
+
+!.env.example
+!.env.production.example
+!.env.staging.example
+!.env.qa.example
+
+########################################
+# Security / Certificates / Keys
+########################################
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.csr
+*.pub
+*.asc
+
+secrets/
+credentials/
+certificates/
+
+########################################
+# Databases / Runtime State
+########################################
+
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.pid
+*.seed
+
+########################################
+# Source Maps
+########################################
+
+*.map
+
+########################################
+# Docker / Containers
+########################################
+
+.docker/
+docker-data/
+docker-volumes/
+
+########################################
+# Kubernetes / DevOps
+########################################
+
+k8s-secrets/
+helm-secrets/
+*.kubeconfig
+
+########################################
+# CI/CD
+########################################
+
+.github/*.local
+.gitlab/*.local
+
+########################################
+# Cloud / Backend Platforms
+########################################
+
+.firebase/
+supabase/.temp/
+appwrite/
+
+########################################
+# Monorepo / TurboRepo
+########################################
+
+apps/*/dist
+packages/*/dist
+
+########################################
+# AI / Generated Assets / LLM Cache
+########################################
+
+.ai-cache/
+.llm-cache/
+generated-ai/
+
+########################################
+# Local Uploads / Runtime Storage
+########################################
+
+uploads/
+tmp/
+storage/
+local-storage/
+generated/
+
+########################################
+# Security Reports / Audits
+########################################
+
+security-reports/
+audit-reports/
+penetration-tests/
+
+########################################
+# Design / Generated Assets
+########################################
+
+exports/
+artifacts/
+screenshots-temp/
+
+########################################
+# Backup / Temporary / Unsafe Files
+########################################
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+########################################
+# Operating System Noise
+########################################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+########################################
+# IDE / Editors
+########################################
+
+.idea/
+*.iml
+
+########################################
+# VS Code
+# Shared Team Configs Allowed
+########################################
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/snippets/
+.env.example
+.vscode/*.code-snippets
+.history/
+
+########################################
+# VS Code Chrome Profiles
+########################################
+
+.vscode/chrome-dev-profile/
+.vscode/chrome-preview-profile/
+.vscode/chrome-profile/
+.vscode/chrome-profile-preview/
+
+########################################
+# Workspace / Personal Session Files
+########################################
+
+*.code-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+########################################
+# GitHub / Copilot / AI Workspace
+########################################
+
+.github/copilot/
+
+########################################
+# Optional Strict Package Policy
+# Enable if project uses pnpm ONLY
+########################################
+
+# package-lock.json
+# yarn.lock
+
+###############################################################################
+# END OF FILE
+# Enterprise Security Hardened
+# Cloud Native Ready
+# CI/CD Safe
+# Zero-Secrets Policy Enabled
+###############################################################################
+########################################
+# Environment Variables / Secrets
+########################################
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+.env.qa.local
+.env.*.local
+
+########################################
+# Secret Backups / Unsafe Variants
+########################################
+
+*.env.backup
+*.env.save
+*.secret
+*.secrets
+
+########################################
+# Safe Public Templates (لا تمنعها!)
+########################################
+
+# .env.example   <--- يجب حذف هذا السطر
+# .env.production.example
+# .env.staging.example
+# .env.qa.example

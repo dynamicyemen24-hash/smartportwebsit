@@ -1,0 +1,113 @@
+###############################################################################
+# ENTERPRISE GRADE .vercelignore
+# SmartPortsCo Production Deployment Rules
+###############################################################################
+
+########################################
+# Development / Local Only
+########################################
+
+.vscode/
+.idea/
+.history/
+*.code-workspace
+
+########################################
+# Dependencies (reinstalled by Vercel)
+########################################
+
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+
+########################################
+# Local Build Artifacts
+########################################
+
+dist/
+build/
+coverage/
+.turbo/
+.cache/
+storybook-static/
+playwright-report/
+test-results/
+
+########################################
+# Logs
+########################################
+
+*.log
+logs/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+########################################
+# Testing Files
+########################################
+
+__tests__/
+tests/
+spec/
+*.spec.ts
+*.spec.tsx
+*.test.ts
+*.test.tsx
+
+########################################
+# Temporary Files
+########################################
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+########################################
+# OS Junk
+########################################
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+########################################
+# Environment Secrets
+########################################
+
+.env.local
+.env.development.local
+.env.test.local
+.env.staging.local
+.env.qa.local
+
+########################################
+# Chrome Debug Profiles
+########################################
+
+.vscode/chrome-dev-profile/
+.vscode/chrome-preview-profile/
+
+########################################
+# Local Runtime Files
+########################################
+
+uploads/
+storage/
+local-storage/
+generated/
+
+########################################
+# Documentation (optional)
+########################################
+
+docs/
+internal-docs/
+drafts/
+
+###############################################################################
+# END
+###############################################################################
