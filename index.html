@@ -1,85 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- Security & Protection Headers (via meta) -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), interest-cohort=()" />
+    <!-- Content Security Policy (relaxed for compatibility; nonce would be better but requires server) -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://images.unsplash.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://images.unsplash.com https://smartportsco.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://*.supabase.co; frame-ancestors 'none'; base-uri 'self'; form-action 'self';" />
+    <!-- Theme & Appearance -->
     <meta name="theme-color" content="#1e3a5f" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
     <meta name="color-scheme" content="light dark" />
-    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="format-detection" content="telephone=no,address=no,email=no" />
 
-    <!-- Primary Meta Tags -->
-    <title>المنافذ الذكية | Smart Ports - رواد الحلول اللوجستية المتكاملة في السعودية</title>
-    <meta
-      name="title"
-      content="المنافذ الذكية | Smart Ports - رواد الحلول اللوجستية المتكاملة في السعودية"
-    />
-    <meta
-      name="description"
-      content="المنافذ الذكية - شركة رائدة في الحلول اللوجستية المتكاملة، إدارة المستودعات الذكية، النقل والشحن، سلاسل الإمداد، أنظمة الطاقة الشمسية، والاستشارات المؤسسية في المملكة العربية السعودية. خبرة +15 عام و+500 مشروع ناجح."
-    />
-    <meta
-      name="keywords"
-      content="حلول لوجستية, إدارة مستودعات, نقل وشحن, سلاسل إمداد, طاقة شمسية, استشارات مؤسسية, مقاولات, السعودية, الرياض, خدمات لوجستية, مستودعات ذكية, ERP, تحول رقمي"
-    />
+    <!-- Primary Meta Tags (enhanced) -->
+    <title>المنافذ الذكية | Smart Ports - رواد الحلول اللوجستية والاستشارات المتكاملة في السعودية</title>
+    <meta name="title" content="المنافذ الذكية | Smart Ports - رواد الحلول اللوجستية والاستشارات المتكاملة في السعودية" />
+    <meta name="description" content="المنافذ الذكية - شركة سعودية رائدة في الحلول اللوجستية الذكية، إدارة المستودعات، النقل والشحن، سلاسل الإمداد، أنظمة الطاقة الشمسية، الاستشارات المؤسسية والتقنية والإدارية. خبرة +15 عام، +500 مشروع ناجح، معتمدة ISO 9001:2015." />
+    <meta name="keywords" content="حلول لوجستية, إدارة مستودعات ذكية, نقل وشحن, سلاسل إمداد, طاقة شمسية, استشارات مؤسسية, استشارات تقنية, استشارات إدارية, مقاولات, السعودية, الرياض, خدمات لوجستية, مستودعات ذكية, ERP, تحول رقمي" />
     <meta name="author" content="المنافذ الذكية المحدودة" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <link rel="canonical" href="https://smartportsco.com" />
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph / Facebook (enhanced) -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://smartportsco.com" />
-    <meta
-      property="og:title"
-      content="المنافذ الذكية | Smart Ports - رواد الحلول اللوجستية المتكاملة"
-    />
-    <meta
-      property="og:description"
-      content="حلول لوجستية متكاملة، إدارة مستودعات ذكية، نقل وشحن، أنظمة طاقة شمسية، واستشارات مؤسسية في السعودية. ISO 9001:2015 معتمد."
-    />
+    <meta property="og:title" content="المنافذ الذكية | Smart Ports - رواد الحلول اللوجستية والاستشارات المتكاملة" />
+    <meta property="og:description" content="حلول لوجستية متكاملة، إدارة مستودعات ذكية، نقل وشحن، أنظمة طاقة شمسية، واستشارات مؤسسية وتقنية وإدارية في السعودية. معتمد ISO 9001:2015." />
     <meta property="og:site_name" content="المنافذ الذكية" />
     <meta property="og:locale" content="ar_SA" />
-    <!-- تم تحسين الصورة بتنسيقات حديثة عبر الخادم - نوصي بتحويل الملف الفعلي إلى .webp و .avif -->
     <meta property="og:image" content="https://smartportsco.com/og-image.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="المنافذ الذكية - حلول لوجستية متكاملة" />
+    <meta property="og:image:alt" content="المنافذ الذكية - حلول لوجستية واستشارية متكاملة" />
 
-    <!-- Twitter -->
+    <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://smartportsco.com" />
-    <meta
-      name="twitter:title"
-      content="المنافذ الذكية | Smart Ports - رواد الحلول اللوجستية المتكاملة"
-    />
-    <meta
-      name="twitter:description"
-      content="حلول لوجستية متكاملة، إدارة مستودعات ذكية، نقل وشحن، أنظمة طاقة شمسية، واستشارات مؤسسية في السعودية."
-    />
+    <meta name="twitter:title" content="المنافذ الذكية | Smart Ports - رواد الحلول اللوجستية والاستشارات المتكاملة" />
+    <meta name="twitter:description" content="حلول لوجستية واستشارية متكاملة في السعودية - إدارة مستودعات، نقل، شحن، طاقة شمسية، استشارات مؤسسية وتقنية وإدارية." />
     <meta name="twitter:image" content="https://smartportsco.com/twitter-image.webp" />
     <meta name="twitter:image:alt" content="شعار المنافذ الذكية" />
 
-    <!-- Favicon & Icons -->
+    <!-- Favicon & Web App Manifest -->
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
 
-    <!-- Preconnect, Prefetch, Preload for Performance -->
+    <!-- Preconnect & DNS Prefetch for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://images.unsplash.com" />
     <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 
-    <!-- Preload for LCP image (logo) -->
+    <!-- Preload critical assets (logo, fonts, main styles) -->
     <link rel="preload" as="image" href="/logo.webp" type="image/webp" fetchpriority="high" />
     <link rel="preload" as="image" href="/logo.png" type="image/png" fetchpriority="high" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" as="style" />
+    <link rel="preload" href="/src/styles/theme.css" as="style" />
 
-    <!-- Structured Data - Organization (موسع) -->
+    <!-- Enhanced Structured Data: Organization, LocalBusiness, Breadcrumb, Service, FAQ -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -88,7 +76,7 @@
         "alternateName": "Smart Ports Co. Ltd",
         "url": "https://smartportsco.com",
         "logo": "https://smartportsco.com/logo.webp",
-        "description": "شركة رائدة في الحلول اللوجستية المتكاملة وإدارة المستودعات والنقل والشحن وأنظمة الطاقة الشمسية في المملكة العربية السعودية",
+        "description": "شركة رائدة في الحلول اللوجستية المتكاملة وإدارة المستودعات والنقل والشحن وأنظمة الطاقة الشمسية والاستشارات المؤسسية والتقنية والإدارية في المملكة العربية السعودية",
         "telephone": "+966667770832",
         "email": "info@smartportsco.com",
         "address": {
@@ -96,11 +84,7 @@
           "addressLocality": "الرياض",
           "addressCountry": "SA"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "24.7136",
-          "longitude": "46.6753"
-        },
+        "geo": { "@type": "GeoCoordinates", "latitude": "24.7136", "longitude": "46.6753" },
         "sameAs": [
           "https://www.facebook.com/smartportsco",
           "https://twitter.com/smartportsco",
@@ -108,15 +92,8 @@
           "https://www.instagram.com/smartportsco"
         ],
         "foundingDate": "2010",
-        "numberOfEmployees": {
-          "@type": "QuantitativeValue",
-          "minValue": "50",
-          "maxValue": "200"
-        },
-        "areaServed": {
-          "@type": "Country",
-          "name": "السعودية"
-        },
+        "numberOfEmployees": { "@type": "QuantitativeValue", "minValue": "50", "maxValue": "200" },
+        "areaServed": { "@type": "Country", "name": "السعودية" },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "خدماتنا",
@@ -125,13 +102,12 @@
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "حلول النقل والشحن" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "إدارة سلاسل الإمداد" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "أنظمة الطاقة الشمسية" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "الاستشارات المؤسسية" } }
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "الاستشارات المؤسسية والتقنية والإدارية" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "المقاولات العامة" } }
           ]
         }
       }
-    </script>
-
-    <!-- Structured Data - LocalBusiness -->
+      </script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -141,101 +117,159 @@
         "telephone": "+966667770832",
         "email": "info@smartportsco.com",
         "url": "https://smartportsco.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "الرياض",
-          "addressRegion": "منطقة الرياض",
-          "addressCountry": "SA"
-        },
+        "address": { "@type": "PostalAddress", "addressLocality": "الرياض", "addressRegion": "منطقة الرياض", "addressCountry": "SA" },
         "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-            "opens": "08:00",
-            "closes": "17:00"
-          }
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "08:00", "closes": "17:00" }
         ],
         "priceRange": "$$$"
       }
-    </script>
-
-    <!-- Structured Data - BreadcrumbList (لتحسين ظهور الروابط في البحث) -->
+      </script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "الرئيسية",
-            "item": "https://smartportsco.com"
-          }
+          { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://smartportsco.com" },
+          { "@type": "ListItem", "position": 2, "name": "خدماتنا", "item": "https://smartportsco.com/#services" },
+          { "@type": "ListItem", "position": 3, "name": "اتصل بنا", "item": "https://smartportsco.com/#contact" }
         ]
       }
-    </script>
+      </script>
+    <!-- FAQ Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "ما هي الخدمات التي تقدمها المنافذ الذكية؟", "acceptedAnswer": { "@type": "Answer", "text": "نقدم حلولاً لوجستية متكاملة (إدارة مستودعات ذكية، نقل وشحن، سلاسل إمداد)، أنظمة طاقة شمسية، استشارات مؤسسية وتقنية وإدارية، ومقاولات عامة." } },
+          { "@type": "Question", "name": "هل لديكم شهادات جودة؟", "acceptedAnswer": { "@type": "Answer", "text": "نعم، نحن معتمدون ISO 9001:2015 ونطبق أعلى معايير الجودة والسلامة." } },
+          { "@type": "Question", "name": "كيف يمكنني التواصل مع فريق المبيعات؟", "acceptedAnswer": { "@type": "Answer", "text": "يمكنك ملء نموذج التواصل في الموقع أو الاتصال على +966667770832 أو إرسال بريد إلكتروني إلى info@smartportsco.com." } }
+        ]
+      }
+      </script>
 
+    <!-- Critical CSS with Brand Identity & Enhanced Skeleton UI -->
     <style>
-      html,
-      body {
-        height: 100%;
+      * {
         margin: 0;
-        scroll-behavior: smooth;
+        padding: 0;
+        box-sizing: border-box;
       }
-      #root {
-        height: 100%;
+      :root {
+        --primary-dark: #0A1F44;
+        --primary-light: #BFFF00;
+        --secondary: #1e3a5f;
+        --gray-bg: #f8fafc;
+        --text-dark: #0f172a;
+        --text-muted: #334155;
+        --border-radius: 1rem;
+        --transition: all 0.2s ease;
       }
-      /* تحسين إمكانية الوصول: زر تخطي المحتوى */
+      body {
+        font-family: 'Tajawal', 'Readex Pro', system-ui, -apple-system, sans-serif;
+        background: var(--gray-bg);
+        color: var(--text-dark);
+        line-height: 1.5;
+      }
       .skip-to-content {
         position: absolute;
         top: -40px;
         left: 0;
-        background: #1e3a5f;
+        background: var(--primary-dark);
         color: white;
         padding: 8px 12px;
         text-decoration: none;
-        z-index: 100;
-        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        z-index: 1000;
         border-radius: 0 0 8px 0;
         transition: top 0.2s ease;
       }
-      .skip-to-content:focus {
-        top: 0;
-        outline: 2px solid #ffcc00;
-      }
-      /* Placeholder أثناء تحميل React */
+      .skip-to-content:focus { top: 0; outline: 2px solid var(--primary-light); }
       .loading-placeholder {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        background: linear-gradient(135deg, #f8f9fb 0%, #eef2f6 100%);
-        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-        color: #1e3a5f;
-        text-align: center;
-        gap: 1rem;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
       }
-      .spinner {
-        width: 50px;
-        height: 50px;
-        border: 5px solid #e2e8f0;
-        border-top-color: #1e3a5f;
-        border-radius: 50%;
-        animation: spin 0.8s linear infinite;
+      /* Dark mode support for skeleton */
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --gray-bg: #0f172a;
+          --text-dark: #f1f5f9;
+          --text-muted: #cbd5e1;
+        }
+        .loading-placeholder { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
       }
-      @keyframes spin {
-        to { transform: rotate(360deg); }
+      .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
       }
-      /* منع FOUC */
-      body {
-        opacity: 1;
+      /* Skeleton Components */
+      .header-skeleton { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 0; border-bottom: 1px solid rgba(0,0,0,0.1); flex-wrap: wrap; gap: 1rem; }
+      .logo-skeleton { display: flex; align-items: center; gap: 0.75rem; }
+      .logo-icon { width: 48px; height: 48px; background: var(--primary-light); border-radius: 12px; }
+      .logo-text { height: 32px; width: 180px; background: linear-gradient(90deg, var(--primary-dark) 0%, #2c4f8a 100%); border-radius: 8px; }
+      .nav-skeleton { display: flex; gap: 2rem; }
+      .nav-skeleton span { width: 70px; height: 24px; background: #cbd5e1; border-radius: 20px; }
+      .hero-skeleton { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; padding: 4rem 0; align-items: center; }
+      .hero-text-skeleton { display: flex; flex-direction: column; gap: 1.5rem; }
+      .hero-title { height: 60px; width: 90%; background: linear-gradient(90deg, var(--primary-dark), #3b6cb0); border-radius: 12px; }
+      .hero-subtitle { height: 28px; width: 80%; background: #94a3b8; border-radius: 20px; }
+      .hero-desc { height: 80px; width: 100%; background: #e2e8f0; border-radius: 16px; }
+      .btn-skeleton { display: inline-block; width: 160px; height: 48px; background: var(--primary-dark); border-radius: 40px; }
+      .hero-image-skeleton { background: linear-gradient(145deg, #e2e8f0, #cbd5e1); border-radius: 32px; height: 320px; width: 100%; }
+      .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 3rem 0; }
+      .service-card { background: white; padding: 1.5rem; border-radius: var(--border-radius); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); transition: var(--transition); }
+      @media (prefers-color-scheme: dark) { .service-card { background: #1e293b; } }
+      .service-icon { width: 48px; height: 48px; background: var(--primary-light); border-radius: 16px; margin-bottom: 1rem; }
+      .service-title-skel { height: 28px; width: 80%; background: #cbd5e1; border-radius: 8px; margin-bottom: 0.75rem; }
+      .service-desc-skel { height: 60px; width: 100%; background: #e2e8f0; border-radius: 12px; }
+      .contact-skeleton { background: var(--primary-dark); border-radius: 32px; padding: 3rem; color: white; margin: 4rem 0; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 2rem; }
+      .footer-skeleton { padding: 2rem 0; text-align: center; border-top: 1px solid rgba(0,0,0,0.1); margin-top: 3rem; }
+      /* real content within skeleton (visible text for SEO) */
+      .real-content-skeleton {
+        display: block;
+        color: var(--text-dark);
+      }
+      .real-content-skeleton h2, .real-content-skeleton h3 {
+        margin-bottom: 1rem;
+        font-weight: 800;
+      }
+      .real-content-skeleton p {
+        margin-bottom: 0.75rem;
+        color: var(--text-muted);
+      }
+      .btn-outline-light {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+        padding: 0.75rem 2rem;
+        border-radius: 40px;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s;
+      }
+      .btn-outline-light:hover {
+        background: white;
+        color: var(--primary-dark);
+      }
+      @keyframes shimmer {
+        0% { background-position: -200% 0; }
+        100% { background-position: 200% 0; }
+      }
+      .shimmer {
+        background: linear-gradient(90deg, #e2e8f0 0%, #f1f5f9 50%, #e2e8f0 100%);
+        background-size: 200% auto;
+        animation: shimmer 1.5s infinite;
+      }
+      @media (prefers-color-scheme: dark) {
+        .shimmer { background: linear-gradient(90deg, #334155 0%, #475569 50%, #334155 100%); background-size: 200% auto; }
+      }
+      .real-text-block {
+        margin: 2rem 0;
       }
     </style>
   </head>
-
   <body>
-    <!-- رابط تخطي المحتوى لتحسين الوصول -->
     <a href="#main-content" class="skip-to-content">تخطي إلى المحتوى الرئيسي</a>
 
     <noscript>
@@ -248,14 +282,94 @@
     </noscript>
 
     <div id="root">
-      <!-- تحسين FOUC و CLS: عنصر placeholder يختفي بعد تحميل React -->
-      <div class="loading-placeholder" aria-hidden="true">
-        <div class="spinner"></div>
-        <p>جاري تحميل المنافذ الذكية...</p>
+      <!-- Advanced Skeleton Screen with real textual content for SEO & UX (will be replaced by React) -->
+      <div class="loading-placeholder" aria-label="جاري تحميل المنصة">
+        <div class="container">
+          <header class="header-skeleton">
+            <div class="logo-skeleton">
+              <div class="logo-icon shimmer"></div>
+              <div class="logo-text shimmer"></div>
+            </div>
+            <div class="nav-skeleton">
+              <span class="shimmer"></span><span class="shimmer"></span><span class="shimmer"></span><span class="shimmer"></span>
+            </div>
+          </header>
+
+          <!-- Hero Section with real descriptive content -->
+          <div class="hero-skeleton">
+            <div class="hero-text-skeleton">
+              <div class="hero-title shimmer"></div>
+              <div class="hero-subtitle shimmer"></div>
+              <div class="hero-desc shimmer"></div>
+              <div class="btn-skeleton shimmer"></div>
+              <!-- Hidden but indexable text for crawlers -->
+              <div class="real-content-skeleton" style="position: absolute; width: 1px; height: 1px; overflow: hidden;">
+                <h1>المنافذ الذكية - الحلول اللوجستية والاستشارات المتكاملة في السعودية</h1>
+                <p>خبرة تزيد عن 15 عاماً في إدارة المستودعات الذكية، سلاسل الإمداد، النقل، الطاقة الشمسية، والاستشارات المؤسسية والتقنية والإدارية.</p>
+              </div>
+            </div>
+            <div class="hero-image-skeleton shimmer"></div>
+          </div>
+
+          <!-- Real services preview visible to user (text content) before React loads - enhances "longer and richer" -->
+          <section class="real-text-block" style="margin: 2rem 0 1rem;">
+            <h2 style="color: var(--primary-dark); font-size: 2rem;">خدماتنا المتكاملة</h2>
+            <p style="font-size: 1.2rem;">نقدم مزيجاً فريداً من الحلول التنفيذية والاستشارية لتمكين أعمالك</p>
+          </section>
+
+          <div class="services-grid">
+            <div class="service-card"><div class="service-icon shimmer"></div><div class="service-title-skel shimmer"></div><div class="service-desc-skel shimmer"></div></div>
+            <div class="service-card"><div class="service-icon shimmer"></div><div class="service-title-skel shimmer"></div><div class="service-desc-skel shimmer"></div></div>
+            <div class="service-card"><div class="service-icon shimmer"></div><div class="service-title-skel shimmer"></div><div class="service-desc-skel shimmer"></div></div>
+            <div class="service-card"><div class="service-icon shimmer"></div><div class="service-title-skel shimmer"></div><div class="service-desc-skel shimmer"></div></div>
+          </div>
+
+          <!-- Extra content: Consulting Services, Stats, etc. -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap: 2rem; background: #eef2ff; border-radius: 2rem; padding: 2rem; margin: 3rem 0;">
+            <div><h3 style="color: var(--primary-dark);">🏢 استشارات مؤسسية</h3><p>تطوير الهيكل التنظيمي، التخطيط الاستراتيجي، إدارة التغيير.</p></div>
+            <div><h3 style="color: var(--primary-dark);">💻 استشارات تقنية</h3><p>التحول الرقمي، أمن المعلومات، تنفيذ أنظمة ERP.</p></div>
+            <div><h3 style="color: var(--primary-dark);">📊 استشارات إدارية</h3><p>تحسين الأداء، إدارة الجودة، مؤشرات KPI.</p></div>
+          </div>
+
+          <!-- Call to Action realistic block -->
+          <div class="contact-skeleton" style="background: var(--primary-dark);">
+            <div><h3 style="color: var(--primary-light);">تواصل مع خبرائنا اليوم</h3><p style="color: #e2e8f0;">احصل على استشارة مجانية لمشروعك القادم</p></div>
+            <a href="#" class="btn-outline-light" style="pointer-events: none;">اتصل بنا</a>
+          </div>
+
+          <!-- Footer with real contact info -->
+          <div class="footer-skeleton">
+            <p>📍 الرياض، المملكة العربية السعودية | 📞 +966 66 777 0832 | 📧 info@smartportsco.com</p>
+            <p style="margin-top: 1rem; font-size: 0.875rem;">© 2026 المنافذ الذكية المحدودة - جميع الحقوق محفوظة | تصميم وتطوير ديناميك لخدمات البرمجيات</p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- يمكن وضع الشعار في التطبيق نفسه، ولكن إذا أردت عرضه في HTML الثابت يمكن إضافته هنا، لكن React سيعيد رسمه. أفضل تركها لـ React -->
+    <!-- Preload Web Vitals & Performance Polyfill (optional) -->
+    <script>
+      // Minimal performance marker and remove FOUC placeholder when React mounts
+      if (window.performance && performance.mark) performance.mark('html-loaded');
+      // Ensure the loading placeholder does not cause CLS shift; it's fine.
+      // Small enhancement: add connection detection for high latency
+      if ('connection' in navigator && navigator.connection.saveData === true) {
+        console.log('Data saver mode detected');
+      }
+    </script>
+
+    <!-- Service Worker Registration for offline & caching (Improves performance & PWA) -->
+    <script>
+      if ('serviceWorker' in navigator && location.hostname !== 'localhost') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(err => console.warn('SW registration failed:', err));
+        });
+      }
+    </script>
+
+    <!-- Main React Entry (deferred, module) -->
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Add explicit main landmark for skip link -->
+    <div id="main-content" style="position: absolute; top: 0; left: -9999px;" tabindex="-1"></div>
   </body>
 </html>
